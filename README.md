@@ -62,18 +62,17 @@ Add few-shot examples for different cuisines
 Adjust temperature parameter (0.2-1.0)
 
 ## 📂 Project Structure
-.
-├── .env                    # Environment variables
-├── Recipe_Generator.ipynb  # Main notebook
-├── README.md               # Documentation
-├── requirements.txt        # Dependencies
-└── .gitignore              # Ignore .env files
+- .
+- ├── .env                    # Environment variables
+- ├── Recipe_Generator.ipynb  # Main notebook
+- ├── README.md               # Documentation
+- ├── requirements.txt        # Dependencies
+- └── .gitignore              # Ignore .env files
 
 ## 🔑 Best Practices
-
-Security: Never commit .env files
-API Limits: Implement rate limiting for heavy usage
-Testing: Use different temperature values
-Validation: Add input validation for ingredients
-Logging: Implement error logging
+- Security: Never commit .env files
+- API Limits: Implement rate limiting for heavy usage
+- Testing: Use different temperature values
+- Validation: Add input validation for ingredients
+- Logging: Implement error logging
 
