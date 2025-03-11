@@ -34,3 +34,41 @@ An intelligent recipe suggestion system powered by ChatGPT API, demonstrating pr
   openai>=1.0.0
   python-dotenv
   ipywidgets
+
+## 📦 Installation
+- Clone repository:
+git clone https://github.com/yourusername/ai-recipe-generator.git
+cd ai-recipe-generator
+- Install dependencies:
+pip install -r requirements.txt
+- Create .env file:
+OPENAI_API_KEY=your_api_key_here
+- Launch Jupyter Notebook:
+jupyter notebook
+
+## 🚀 Usage
+Open Recipe_Generator.ipynb
+Run all cells (Kernel > Restart & Run All)
+Click the "Generate Recipe" button
+Watch AI create recipes in real-time!
+Custom Prompts:
+
+Modify system messages in the notebook
+Add few-shot examples for different cuisines
+Adjust temperature parameter (0.2-1.0)
+
+## 📂 Project Structure
+.
+├── .env                    # Environment variables
+├── Recipe_Generator.ipynb  # Main notebook
+├── README.md               # Documentation
+├── requirements.txt        # Dependencies
+└── .gitignore              # Ignore .env files
+## 🔑 Best Practices
+
+Security: Never commit .env files
+API Limits: Implement rate limiting for heavy usage
+Testing: Use different temperature values
+Validation: Add input validation for ingredients
+Logging: Implement error logging
+
