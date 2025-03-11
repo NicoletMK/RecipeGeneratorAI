@@ -37,14 +37,18 @@ An intelligent recipe suggestion system powered by ChatGPT API, demonstrating pr
 
 ## 📦 Installation
 - Clone repository:
-git clone https://github.com/yourusername/ai-recipe-generator.git
-cd ai-recipe-generator
+  ```bash
+  git clone https://github.com/yourusername/ai-recipe-generator.git
+  cd ai-recipe-generator
 - Install dependencies:
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 - Create .env file:
-OPENAI_API_KEY=your_api_key_here
+  ```bash
+  OPENAI_API_KEY=your_api_key_here
 - Launch Jupyter Notebook:
-jupyter notebook
+  ```bash
+  jupyter notebook
 
 ## 🚀 Usage
 Open Recipe_Generator.ipynb
@@ -64,6 +68,7 @@ Adjust temperature parameter (0.2-1.0)
 ├── README.md               # Documentation
 ├── requirements.txt        # Dependencies
 └── .gitignore              # Ignore .env files
+
 ## 🔑 Best Practices
 
 Security: Never commit .env files
