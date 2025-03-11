@@ -36,17 +36,17 @@ An intelligent recipe suggestion system powered by ChatGPT API, demonstrating pr
   ipywidgets
 
 ## 📦 Installation
-1. Clone repository:
+- Clone repository:
   ```bash
   git clone https://github.com/yourusername/ai-recipe-generator.git
   cd ai-recipe-generator
-2. Install dependencies:
+- Install dependencies:
   ```bash
   pip install -r requirements.txt
-3. Create .env file:
+- Create .env file:
   ```bash
   OPENAI_API_KEY=your_api_key_here
-4. Launch Jupyter Notebook:
+- Launch Jupyter Notebook:
   ```bash
   jupyter notebook
 
@@ -62,17 +62,34 @@ Add few-shot examples for different cuisines<br>
 Adjust temperature parameter (0.2-1.0)<br>
 
 ## 📂 Project Structure
-.<br>
-├── .env                    # Environment variables<br>
-├── Recipe_Generator.ipynb  # Main notebook<br>
-├── README.md               # Documentation<br>
-├── requirements.txt        # Dependencies<br>
-└── .gitignore              # Ignore .env files<br>
+.
+├── .env                    # Environment variables
+├── Recipe_Generator.ipynb  # Main notebook
+├── README.md               # Documentation
+├── requirements.txt        # Dependencies
+└── .gitignore              # Ignore .env files<
 
 ## 🔑 Best Practices
-Security: Never commit .env files<br>
-API Limits: Implement rate limiting for heavy usage<br>
-Testing: Use different temperature values<br>
-Validation: Add input validation for ingredients<br>
-Logging: Implement error logging<br>
+Security: Never commit .env files
+API Limits: Implement rate limiting for heavy usage
+Testing: Use different temperature values
+Validation: Add input validation for ingredients
+Logging: Implement error logging
+
+## 📝 Example Output
+Simple Recipe: Recipe: Honey Garlic Shrimp
+
+Ingredients:
+
+1 pound shrimp, peeled and deveined
+1/4 cup honey
+2 cloves garlic, minced
+Instructions:
+
+In a bowl, mix together the honey and minced garlic until well combined.
+Heat a skillet over medium heat and add the shrimp.
+Cook the shrimp for 2-3 minutes on each side until they start to turn pink.
+Pour the honey garlic mixture over the shrimp and stir to coat.
+Continue to cook the shrimp for another 1-2 minutes until they are cooked through and the sauce has thickened.
+Serve the honey garlic shrimp hot with your favorite side dish and enjoy!
 
