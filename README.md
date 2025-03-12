@@ -14,8 +14,6 @@ An intelligent recipe suggestion system powered by ChatGPT API, demonstrating pr
 - [Project Structure](#-project-structure)
 - [Best Practices](#-best-practices)
 - [Example Output](#-example-output)
-- [Acknowledgments](#-acknowledgments)
-- [License](#-license)
 
 ## 🌟 Features
 - **AI-Powered Recipe Generation** using ChatGPT 3.5-turbo
@@ -83,7 +81,7 @@ Ingredients:
 
 1 pound shrimp, peeled and deveined
 1/4 cup honey
-2 cloves garlic, minced\
+2 cloves garlic, minced
 
 Instructions:
 
