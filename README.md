@@ -62,17 +62,12 @@ Add few-shot examples for different cuisines<br>
 Adjust temperature parameter (0.2-1.0)<br>
 
 ## 📂 Project Structure
-.
-
-├── .env                    # Environment variables
-
-├── Recipe_Generator.ipynb  # Main notebook
-
-├── README.md               # Documentation
-
-├── requirements.txt        # Dependencies
-
-└── .gitignore              # Ignore .env files<
+.\
+├── .env                    # Environment variables\
+├── Recipe_Generator.ipynb  # Main notebook\
+├── README.md               # Documentation\
+├── requirements.txt        # Dependencies\
+└── .gitignore              # Ignore .env files
 
 ## 🔑 Best Practices
 Security: Never commit .env files
@@ -88,13 +83,14 @@ Ingredients:
 
 1 pound shrimp, peeled and deveined
 1/4 cup honey
-2 cloves garlic, minced
+2 cloves garlic, minced\
+
 Instructions:
 
-In a bowl, mix together the honey and minced garlic until well combined.
-Heat a skillet over medium heat and add the shrimp.
-Cook the shrimp for 2-3 minutes on each side until they start to turn pink.
-Pour the honey garlic mixture over the shrimp and stir to coat.
-Continue to cook the shrimp for another 1-2 minutes until they are cooked through and the sauce has thickened.
+In a bowl, mix together the honey and minced garlic until well combined.\
+Heat a skillet over medium heat and add the shrimp.\
+Cook the shrimp for 2-3 minutes on each side until they start to turn pink.\
+Pour the honey garlic mixture over the shrimp and stir to coat.\
+Continue to cook the shrimp for another 1-2 minutes until they are cooked through and the sauce has thickened.\
 Serve the honey garlic shrimp hot with your favorite side dish and enjoy!
 
