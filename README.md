@@ -63,10 +63,15 @@ Adjust temperature parameter (0.2-1.0)<br>
 
 ## 📂 Project Structure
 .
+
 ├── .env                    # Environment variables
+
 ├── Recipe_Generator.ipynb  # Main notebook
+
 ├── README.md               # Documentation
+
 ├── requirements.txt        # Dependencies
+
 └── .gitignore              # Ignore .env files<
 
 ## 🔑 Best Practices
